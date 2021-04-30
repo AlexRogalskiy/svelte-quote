@@ -17,6 +17,12 @@
       "types": [
         "types/"
       ],
+      "api": [
+        "api/"
+      ],
+      "hooks": [
+        "hooks/"
+      ]
     },
     "rootDir": "src",
     "skipLibCheck": true,
