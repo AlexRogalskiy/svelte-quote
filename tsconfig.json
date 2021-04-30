@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "utils": [
+        "utils/"
+      ],
+      "constants": [
+        "constants/"
+      ],
+      "components": [
+        "components/"
+      ],
+      "stores": [
+        "stores/"
+      ],
+      "types": [
+        "types/"
+      ],
+    },
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+  },
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "__sapper__/*",
+    "public/*"
+  ]
+}
